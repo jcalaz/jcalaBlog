@@ -36,7 +36,7 @@
                 </tbody>
             </table>
             <center>
-                #set($href = "/admin/project")
+                #set($href = "/admin/projects")
                 #flip($pageNum  $current $href)
             </center>
         </div>

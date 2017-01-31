@@ -1,14 +1,14 @@
 buildscript {
   ext {
-    springBootPluginVersion = '1.4.2.RELEASE'
-    springBootVersion = '1.4.2.RELEASE'
+    springBootPluginVersion = '1.4.3.RELEASE'
+    springBootVersion = '1.4.3.RELEASE'
     mybatisSpringVersion='1.1.1'
     ehcacheVersion='2.10.2.2.21'
     dockerPluginVersion='1.2'
   }
   repositories {
     mavenLocal()
-    mavenCentral()
+    maven { url "http://maven.aliyun.com/nexus/content/repositories/public/"}
     maven { url "http://repo.spring.io/release" }
     maven { url "http://repo.spring.io/milestone" }
     maven { url "http://repo.spring.io/snapshot" }
